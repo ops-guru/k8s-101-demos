@@ -45,5 +45,6 @@ spec:
     name: client
   - port: 9300
     name: nodes
+  clusterIP: None
   selector:
     app: elasticsearch
